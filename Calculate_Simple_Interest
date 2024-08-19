@@ -1,0 +1,13 @@
+#include<iostream>
+using namespace std;
+int main(){
+  //float si=1000;
+  float p=20;
+  float r=10;
+  float t=30000;
+
+  float x = p*r*t;
+  float si = x/100;
+
+  cout<<si;
+}
