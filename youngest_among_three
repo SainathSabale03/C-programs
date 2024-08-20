@@ -1,0 +1,32 @@
+#include<iostream>
+using namespace std;
+
+int main(){
+  int ram;
+  int shyam;
+  int ajay;
+
+  cout<<"enter age of ram: ";
+  cin>>ram;
+  cout<<endl;
+  cout<<"enter age of shyam: ";
+  cin>>shyam;
+  cout<<endl;
+  cout<<"enter age of ajay: ";
+  cin>>ajay;
+  cout<<endl;
+
+  if(ram>shyam && shyam>ajay){
+    cout<<"Ajay is younger ";
+  }
+  else if(ram<shyam && shyam<ajay){
+    cout<<"ram is younger ";
+  }
+  else {
+    cout<<"shyam is younger";
+  }
+
+  
+
+
+}
