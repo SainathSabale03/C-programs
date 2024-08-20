@@ -1,0 +1,25 @@
+#include<iostream>
+using namespace std;
+
+int main(){
+  
+  int cp;
+  int sp;
+   
+  cout<<"enter the cost price :";
+  cin>>cp;
+  cout<<endl;
+  cout<<"enter the selling price :";
+  cin>>sp;
+  cout<<endl;
+  if(cp - sp > 0){
+    cout<<"Loss of Rs."<<cp-sp;
+  }
+  else if(sp-cp > 0){
+    cout<<"Profit of Rs."<<sp-cp;
+  }
+  else {
+    cout<<"No Profit no loss ";
+  }
+  
+}
