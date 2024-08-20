@@ -1,0 +1,25 @@
+#include<iostream>
+using namespace std;
+int main(){
+  int length;
+  int breadth;
+  int area;
+  int perimeter;
+
+  cout<<"Enter the length of the rectangle: ";
+  cin>>length;
+  cout<<"Enter the breadth of rectangle: ";
+  cin>>breadth;
+
+  area = length * breadth;
+  perimeter = 2 * (length + breadth);
+
+  if(area > perimeter){
+    cout<<endl;
+    cout<<"Area is greater than the perimeter of rectangle";
+  }
+  else {
+    cout<<endl;
+    cout<<"Area is less than the perimeter of the rectanle";
+  }
+}
