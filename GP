@@ -1,0 +1,17 @@
+#include<iostream>
+using namespace std;
+
+int main(){
+  int n;
+  int x=1;
+  cout<<"Enter value for n:";
+  cin>>n;
+
+  for(int i=1;i<=n;i++){
+    
+    cout<<x;
+    cout<<endl;
+    x=x*2;
+  }
+}
+
